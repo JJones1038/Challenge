@@ -1,6 +1,8 @@
+#Blackjack Game
+
 Welcome to the Blackjack game implemented in Java! This simple console-based game allows you to enjoy the classic casino experience of Blackjack right from your command line. Below you'll find information on how to play the game and what each part of the code does.
 
-How to Play
+##How to Play
 Setup:
 
 Run the Blackjack class.
@@ -22,7 +24,7 @@ The player wins if their total is higher than the dealer's and the dealer hasn't
 Game End:
 
 Once the winner is determined, the game ends.
-Code Explanation
+##Code Explanation
 drawRandomCard():
 
 Generates a random number between 1 and 13 to represent a playing card.
@@ -38,7 +40,7 @@ Prompts the player to choose between hitting (getting another card) or staying (
 Main Method:
 
 Controls the flow of the game, including dealing cards, player and dealer turns, and determining the winner.
-How to Run
+##How to Run
 To run the game, simply execute the main() method in the Blackjack class. Follow the prompts displayed in the console to play the game.
 
 Have fun and good luck!
