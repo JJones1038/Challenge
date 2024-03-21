@@ -28,18 +28,23 @@ Once the winner is determined, the game ends.
 drawRandomCard():
 
 - Generates a random number between 1 and 13 to represent a playing card.
+  
 cardString(int cardNumber):
 
 - Returns a string representation of the card based on its number.
+  
 faceDown():
 
 - Returns a string representation of a face-down card (used for the dealer's initial card).
+  
 hitOrStay():
 
 - Prompts the player to choose between hitting (getting another card) or staying (ending their turn).
+  
 Main Method:
 
 - Controls the flow of the game, including dealing cards, player and dealer turns, and determining the winner.
+  
 ## How to Run
 To run the game, simply execute the main() method in the Blackjack class. Follow the prompts displayed in the console to play the game.
 
